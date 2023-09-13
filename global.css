@@ -24,6 +24,13 @@ body {
   justify-content: center;
   width: 80%;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 1023px) {
+  .profile-container {
+    justify-content: center;
+    width: 90%;
+  }
+}
 /* dropdonw container css end */
 ::-webkit-scrollbar {
   width: 10px;

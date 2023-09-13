@@ -105,12 +105,20 @@
 
 /* name-container end */
 /* Photo container start */
+.photo-container {
+  max-width: 20%;
+  max-height: 20%;
+}
+.photo-container-image {
+
+}
 .vector-container {
   /* background-color: rgba(182, 175, 195, 0.2); */
-  width: 32.22919rem;
+  max-width: 50%;
   height: 28.20831rem;
   flex-shrink: 0;
 }
+
 /* Photo container end */
 /* Resume container start*/
 .resume-container {
@@ -211,7 +219,7 @@
 .positon-experinece-container {
   display: flex;
   justify-content: space-around;
-  width: 50.125rem;
+  max-width: 50.125rem;
   height: 6rem;
   border-radius: 1rem;
   background: rgba(123, 74, 226, 0.1);
