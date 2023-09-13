@@ -1,0 +1,311 @@
+/* Nav Bar CSS Start */
+.menu-container li {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+}
+.sticky-header-container {
+  position: sticky;
+  top: 20px;
+  z-index: 100;
+}
+.sticky-header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-container {
+  display: flex;
+}
+.main-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  background-color: rgba(123, 74, 226, 0.09);
+  border-radius: 15px;
+  height: 3.5rem;
+}
+.menu-container-inner-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  transform: rotate(-0.032deg);
+}
+
+.menu-container-inner-link:hover {
+  text-decoration: none;
+  color: rgba(123, 74, 226, 0.5);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: 0.2s ease;
+}
+.menu-container-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+/* Nav Bar CSS End */
+
+/* About Profile Start */
+.about-section-main {
+  display: flex;
+  flex-direction: column;
+}
+/* name-container start */
+.name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  cursor: pointer;
+}
+
+.about-profile-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboout-social-container {
+  display: flex;
+  gap: 1rem;
+}
+.name-container-greeting {
+  border-radius: 1rem;
+  background: rgba(123, 74, 226, 0.1);
+  color: #7b4ae2;
+  padding: 2px;
+  justify-content: flex-start;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.name-container-full-name {
+  color: #fff;
+  font-family: Raleway;
+  font-size: xx-large;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.name-container-position {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: justify;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* name-container end */
+/* Photo container start */
+.vector-container {
+  /* background-color: rgba(182, 175, 195, 0.2); */
+  width: 32.22919rem;
+  height: 28.20831rem;
+  flex-shrink: 0;
+}
+/* Photo container end */
+/* Resume container start*/
+.resume-container {
+  display: flex;
+}
+.resume-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact-via-whatapp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1rem;
+  margin: 2px;
+  border-radius: 1rem;
+  border: 1px solid rgba(123, 74, 226, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  padding: 7px;
+  cursor: pointer;
+  color: rgba(123, 74, 226, 0.5);
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.download-resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  color: rgba(123, 74, 226, 0.5);
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/* Resume container end*/
+/* About Profile End */
+
+/* Skill Section Start */
+.about-skill-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-skil-section-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.skills-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.skill-container-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  width: 9rem;
+  height: 9rem;
+  color: white;
+  border: 1px solid rgba(123, 74, 226, 0.5);
+  border-radius: 1rem;
+  transform: rotate(-0.033deg);
+  /* Box font */
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: 0.3s ease;
+}
+.skills-sub-name {
+  transform: rotate(-0.033deg);
+  flex-shrink: 1;
+  color: #ffffff7c;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.skill-container-1:hover {
+  background: rgba(123, 74, 226, 0.1);
+  border-radius: 1rem;
+  border: none;
+}
+.positon-experinece-container {
+  display: flex;
+  justify-content: space-around;
+  width: 50.125rem;
+  height: 6rem;
+  border-radius: 1rem;
+  background: rgba(123, 74, 226, 0.1);
+}
+.positions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #7b4ae2;
+  text-align: center;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Skill Section Start */
+
+/* Contact Section Start */
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-section-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+.contacts-text {
+  width: 80%;
+}
+.lest-talk-text {
+  color: #fff;
+  text-align: center;
+  font-size: xx-large;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.contact-section-whatsapp-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  border: 1px solid rgba(123, 74, 226, 0.5);
+
+  padding: 0.3rem 0.9rem;
+  color: rgba(123, 74, 226, 0.5);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.lite-text {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.back-to-top-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(123, 74, 226, 0.5);
+  font-size: x-large;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 5rem;
+}
+/* Contact Section End */
+
+/* Footer Section start */
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  width: 100%;
+  height: 4rem;
+  background-color: rgba(123, 74, 226, 0.1);
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+/* Footer Section end */

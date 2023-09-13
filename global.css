@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  width: 100%;
+  background-color: #090e16;
+  font-family: Raleway;
+  height: 500rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.horizontal-line {
+  align-items: center;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(123, 74, 226, 0.2);
+  margin: 2rem 0rem;
+}
+.divider-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-container {
+  justify-content: center;
+  width: 80%;
+}
+/* dropdonw container css end */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(123, 74, 226, 0.3);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
