@@ -3,7 +3,7 @@ body {
   width: 100%;
   background-color: #090e16;
   font-family: Raleway;
-  height: 500rem;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,13 +22,13 @@ body {
 }
 .profile-container {
   justify-content: center;
-  width: 80%;
+  width: 90%;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 1023px) {
   .profile-container {
     justify-content: center;
-    width: 90%;
+    width: 95%;
   }
 }
 /* dropdonw container css end */
