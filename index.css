@@ -204,7 +204,7 @@
     flex-direction: column;
     margin: 1rem 0rem;
   }
-  .aboout-social-container {
+  .name-container .aboout-social-container {
     display: none;
   }
 }
