@@ -83,3 +83,9 @@
   font-weight: 400;
   line-height: normal;
 }
+
+@media screen and (max-width: 550px) {
+  .skills-section-sub-heading-1 {
+    line-height: 3rem;
+  }
+}

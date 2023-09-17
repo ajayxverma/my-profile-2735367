@@ -209,29 +209,6 @@
   }
 }
 
-@media screen and (max-width: 550px) {
-  .skills-container {
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 1rem;
-  }
-  .positon-experinece-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-    height: 50rem;
-    border-radius: 1rem;
-    background: rgba(123, 74, 226, 0.1);
-  }
-  .skill-container-1 {
-    max-height: 6rem;
-    max-width: 6rem;
-    gap: 0.2rem;
-    width: 6rem;
-    height: 6rem;
-  }
-}
 /* Photo container end */
 /* Resume container start*/
 .resume-container {
@@ -330,14 +307,18 @@
 }
 .skill-container-1:hover {
   background: rgba(123, 74, 226, 0.1);
-  border-radius: 1rem;
   border: none;
 }
 .positon-experinece-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   max-width: 50.125rem;
   height: 6rem;
+}
+.positon-experinece-container-inner {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
   border-radius: 1rem;
   background: rgba(123, 74, 226, 0.1);
 }
@@ -434,3 +415,34 @@
   width: 80%;
 }
 /* Footer Section end */
+/* MOB SCREEN CSS */
+@media (max-width: 550px) {
+  .skills-container {
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+  }
+  .positon-experinece-container {
+    height: auto;
+  }
+  .positon-experinece-container-inner {
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    gap: 3rem;
+  }
+  .skill-container-1 {
+    max-height: 8rem;
+    max-width: 8rem;
+    gap: 0.2rem;
+    width: 8rem;
+    height: 8rem;
+  }
+  .footer-container .lite-text {
+    font-size: 0.75rem;
+  }
+  .footer-container .aboout-social-container {
+    gap: 0.4rem;
+  }
+}
