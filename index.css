@@ -10,6 +10,7 @@
   z-index: 100;
 }
 .sticky-header-container {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -322,6 +323,24 @@
   border-radius: 1rem;
   background: rgba(123, 74, 226, 0.1);
 }
+.position-sub-font {
+  color: #7b4ae2;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+.position-main-font {
+  color: #7b4ae2;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 .positions-container {
   display: flex;
   flex-direction: column;
@@ -439,10 +458,18 @@
     width: 8rem;
     height: 8rem;
   }
+  .footer-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
   .footer-container .lite-text {
     font-size: 0.75rem;
   }
   .footer-container .aboout-social-container {
     gap: 0.4rem;
+    order: -1;
+  }
+  .footer-section {
+    height: 5rem;
   }
 }

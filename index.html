@@ -3,19 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ajay Verma</title>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="project-section-styles.css">
     <link rel="stylesheet" href="skills-section-styles.css">
-    <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap"
-  />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap"/>
 </head>
 <body>
-    <div class="profile-container">
-    <!-- Header Start -->
     <header class="sticky-header-container">
         <nav class="main-nav-container" >
          <!--    <div class="main-nav-logo">
@@ -24,21 +19,24 @@
             <div class="menu-container">
                 <ul class="menu-container-inner">
                     <li><a class="menu-container-inner-link" href="#">Home</a></li>
-                    <li><a class="menu-container-inner-link" href="#">Skills</a></li>
-                    <li><a class="menu-container-inner-link" href="#">Projects</a></li>
-                    <li><a class="menu-container-inner-link" href="#">Recommendation</a></li>
-                    <li><a class="menu-container-inner-link"href="#">Contacts</a></li>
+                    <li><a class="menu-container-inner-link" href="#about-section-id">Skills</a></li>
+                    <li><a class="menu-container-inner-link" href="#">About me</a></li>
+                    <li><a class="menu-container-inner-link" href="#projects-container-id">Projects</a></li>
                     <li><a class="menu-container-inner-link" href="#">Reviews</a></li>
+                    <li><a class="menu-container-inner-link"href="#contact-container-id">Contacts</a></li>     
                 </ul>
             </div>
                <div class="nav-menu-log-mob" style="overflow: hidden;">
                 <img src="./public/site-icon/menu.svg" alt="">
             </div>
         </nav>
-    </header> 
+    </header>
+    <div class="profile-container">
+    <!-- Header Start -->
+     
     <!-- Headr End -->
     <!-- About Section Start -->
-    <div class="about-section-main">
+    <div class="about-section-main" id="about-section-id">
         <div class="about-profile-top">
             <div class="name-container">
 
@@ -53,26 +51,26 @@
                 </div>
                 <div class="aboout-social-container">
                   <div>
-                    <img src="./public/site-icon/linkdin.svg" alt="">
+                    <a href="https://www.linkedin.com/in/ajayxverma/" target="_blank"><img src="./public/site-icon/linkdin.svg" alt=""></a>
                   </div>
                   <div>
-                    <img src="./public//site-icon/github.svg" alt="">
+                    <a href="https://github.com/ajayxverma" target="_blank"><img src="./public//site-icon/github.svg" alt=""></a>
                   </div>
                      <div>
-                  <img src="./public/site-icon/be.svg" alt="">
+                        <a href="" target="_blank"> <img src="./public/site-icon/be.svg" alt=""></a>
                      </div>   
                 </div>
             </div>
             <div class="photo-container">
                 <div class="aboout-social-container-mob">
                     <div>
-                      <img src="./public/site-icon/linkdin.svg" alt="">
+                      <a href="https://www.linkedin.com/in/ajayxverma/" target="_blank"><img src="./public/site-icon/linkdin.svg" alt=""></a>
                     </div>
                     <div>
-                      <img src="./public//site-icon/github.svg" alt="">
+                      <a href=""><img src="./public//site-icon/github.svg" alt=""></a>
                     </div>
                     <div>
-                        <img src="./public/site-icon/be.svg" alt="">
+                        <a href=""><img src="./public/site-icon/be.svg" alt=""></a>
                     </div>   
                   </div>
                 <div class="photo-container-image" style="align-items: center;">
@@ -85,14 +83,12 @@
             </div>
             <div class="resume-container">
                 <div class="resume-contact">
+                    <a href="./files/resume/Ajay_Verma.pdf" download="Ajay-Verma-Resume" target="_self" style="text-decoration: none;">
                     <div class="download-resume-container">
                         Downlaod CV
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M8 2V11.5" stroke="#7B4AE2" stroke-opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3.5 7L8 11.5L12.5 7" stroke="#7B4AE2" stroke-opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M2.5 13.5H13.5" stroke="#7B4AE2" stroke-opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
+                        <img src="./public/site-icon/download-icon.svg" alt="downlaod-reusume">
                     </div>
+                    </a>
                     <div class="contact-via-whatapp-container">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path d="M4.25626 16.5937C3.13959 14.7098 2.74899 12.483 3.1578 10.3314C3.5666 8.17982 4.74669 6.25145 6.47652 4.9083C8.20636 3.56516 10.367 2.8996 12.5527 3.03658C14.7385 3.17357 16.7991 4.10367 18.3477 5.65227C19.8963 7.20088 20.8264 9.26149 20.9634 11.4473C21.1004 13.633 20.4348 15.7937 19.0917 17.5235C17.7486 19.2533 15.8202 20.4334 13.6686 20.8422C11.5171 21.251 9.29025 20.8604 7.40626 19.7437V19.7437L4.29376 20.625C4.16624 20.6623 4.03103 20.6646 3.90231 20.6317C3.77359 20.5987 3.6561 20.5318 3.56215 20.4379C3.4682 20.3439 3.40126 20.2264 3.36833 20.0977C3.33541 19.969 3.33771 19.8338 3.37501 19.7062L4.25626 16.5937Z" stroke="#7B4AE2" stroke-opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -104,34 +100,34 @@
             </div>
         </div>
     </div>
-    <div class="about-skill-section">
+    <div class="about-skill-section" id="skills-section-id">
         <div class="about-skil-section-inner">
             <div class="skills-container">
                 <div class="skill-container-1">
                     <img src="./public/site-icon/skill-code-icon.svg" alt="">
                       <div class="skills-sub-name">
-                        3 languages
+                        4+ years of Experience as
                       </div> 
                       <div class="skills-name">
-                        Programmer
+                        Developr
                       </div>   
                 </div>
                 <div class="skill-container-1">
-                    <img src="./public/site-icon/skill-code-icon.svg" alt="">
+                    <img src="./public/site-icon/work-experience-logo.svg" alt="">
                       <div class="skills-sub-name">
-                        3 languages
+                        5+ years of work
                       </div> 
                       <div class="skills-name">
-                        Programmer
+                        Experience
                       </div>  
                 </div>
                 <div class="skill-container-1">
                     <img src="./public/site-icon/skill-code-icon.svg" alt="">
                       <div class="skills-sub-name">
-                        3 languages
+                        4+ years as
                       </div> 
                       <div class="skills-name">
-                        Programmer
+                        Full stack Developer
                       </div>  
                 </div>
             </div>
@@ -139,23 +135,23 @@
                 <div class="positon-experinece-container-inner">
                     <div class="positions-container">
                         <div class="position-sub-font">
-                            Full Stack Web Developr 
+                            Developer 
                         </div>
                         <div class="position-main-font">
-                            Software Engineer
+                            Full Stack dev
                         </div>
                     </div>
                     <div class="positions-container">
                         <div class="position-sub-font">
-                            Full Stack Web Developr 
+                            Dozens of projects and
                         </div>
                         <div class="position-main-font">
-                            Software Engineer
+                            Experiences
                         </div>
                     </div>
                     <div class="positions-container">
                         <div class="position-sub-font">
-                            Full Stack Web Developr 
+                            Freelance Developer and
                         </div>
                         <div class="position-main-font">
                             Software Engineer
@@ -170,126 +166,112 @@
     <div class="divider-line">
         <div class="horizontal-line"></div>
     </div>
-
-        <!-- Skills Section Start-->
-        <div class="skills-section">
-            <div class="skil-sesction-container">
-                <div class="skills-section-greeting-emo">
-                    <div class="greeting-emo-container">🧑‍💻 Skills · Experiences</div>
-                </div>
-                <div class="skills-section-heading-main">Technologies and skills</div>
-                <div class="skills-section-sub-heading-1">Technologies I have Experities In</div>
-                <div class="skills-section-skills-img-container">
-                    <img src="./public/Nodejs.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/TypeScript.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/Javascript.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/React.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/Nextjs.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/java8.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/spring-boot.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/mongodb.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/postgres.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/html.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/css.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/Github.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/git.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/Docker.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/Figma.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/TailwindCSS.svg" class="skills-section-skills-img" alt="">
-                </div>
-                <div class="skills-section-sub-heading-1">Technologies I have Experience In</div>
-                <div class="skills-section-skills-img-container">
-                    <img src="./public/python.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/kubernetes.svg" class="skills-section-skills-img" alt="">
-                    <img src="./public/graphql.svg" class="skills-section-skills-img" alt="">
-                </div>
+    <!-- Skills Section Start-->
+    <div class="skills-section">
+        <div class="skil-sesction-container">
+            <div class="skills-section-greeting-emo">
+                <div class="greeting-emo-container">🧑‍💻 Skills · Experiences</div>
+            </div>
+            <div class="skills-section-heading-main">Technologies and skills</div>
+            <div class="skills-section-sub-heading-1">Technologies I have Experities In</div>
+            <div class="skills-section-skills-img-container">
+                <img src="./public/Nodejs.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/TypeScript.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/Javascript.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/React.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/Nextjs.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/java8.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/spring-boot.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/mongodb.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/postgres.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/html.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/css.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/Github.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/git.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/Docker.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/Figma.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/TailwindCSS.svg" class="skills-section-skills-img" alt="">
+            </div>
+            <div class="skills-section-sub-heading-1">Technologies I have Experience In</div>
+            <div class="skills-section-skills-img-container">
+                <img src="./public/python.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/kubernetes.svg" class="skills-section-skills-img" alt="">
+                <img src="./public/graphql.svg" class="skills-section-skills-img" alt="">
             </div>
         </div>
-        <!-- Skills Section End-->
-
-        <div class="divider-line">
-            <div class="horizontal-line"></div>
-        </div>
+    </div>
+    <!-- Skills Section End-->
+    <div class="divider-line">
+        <div class="horizontal-line"></div>
+    </div>
     
     <!-- Projection Section Start -->
-    <div class="projects-section">
+    <div class="projects-section" id="projects-container-id">
         <!-- Project heading And Filter -->
         <div class="projects-section-top">
             <div class="project-section-heading">
                 Works and projects
             </div>
-            <div class="project-section-filters">
+           <!--  <div class="project-section-filters">
                 <div class="project-section-top-filter-1">
                     <img src="./public/DesignIcon.svg" alt="" class="project-section-top-filter-image">                          
                         Design     
                 </div>
-            </div>
+            </div> -->
         </div>
         <!-- Projects Cards -->
         <div class="projects-cards-container">
-            <div class="project-cards">
-               <div class="project-card-heading"> Heading</div>
-               <div class="project-card-description"> Descirption lot of descripton afajsf asfnasnfknsasalnklnsdfasfdsafaafadasdadafsa </div>
+            <div class="project-cards" id="ecommerce-microserice-card">
+               <div class="project-card-heading"> Ecommerce Backed Micro Services</div>
+               <div class="project-card-description"> 
+                Ecommerce Full Backed Deployable Service with micro-service Architeture.
+                click on me for info more
+               </div>
                <div class="project-card-tech-used"> 
                     <div class="project-tech-used">
-                        TypeScript
+                        Java
                     </div>
                     <div class="project-tech-used">
-                        TypeScript
+                        spring-boot
                     </div>
                     <div class="project-tech-used">
-                        TypeScript
+                        MicroServices
                     </div>
                </div>
                <img src="./public/project-card-image.png" alt="" class="project-card-image">
             </div> 
             <div class="project-cards">
-                <div class="project-card-heading"> Project </div>
-                <div class="project-card-description"> Descirption lot of descripton afajsf asfnasnfknsasalnklnsdfasfdsafaafadasdadafsa </div>
+                <div class="project-card-heading"> Contact backend service </div>
+                <div class="project-card-description">
+                     Developed a Node.js Express API for managing contacts, enabling users to log in, create, save, delete contacts, and log out. This API offers a robust solution for contact management within a web application, enhancing user experience and data organization.
+                     </div>
                 <div class="project-card-tech-used"> 
                      <div class="project-tech-used">
-                         TypeScript
+                         Javascript
                      </div>
                      <div class="project-tech-used">
-                         TypeScript
+                         NodeJs
                      </div>
                      <div class="project-tech-used">
-                         TypeScript
-                     </div>
-                     <div class="project-tech-used">
-                         TypeScript
+                         Express
                      </div>
                 </div>
                 <img src="./public/project-card-image.png" alt="" class="project-card-image">
              </div>
              <div class="project-cards">
-                <div class="project-card-heading"> Heading</div>
-                <div class="project-card-description"> Descirption lot of descripton afajsf asfnasnfknsasalnklnsdfasfdsafaafadasdadafsa </div>
-                <div class="project-card-tech-used"> 
-                     <div class="project-tech-used">
-                         TypeScript
-                     </div>
-                     <div class="project-tech-used">
-                         TypeScript
-                     </div>
-                     <div class="project-tech-used">
-                         TypeScript
-                     </div>
+                <div class="project-card-heading"> Task Managment Service</div>
+                <div class="project-card-description">
+                    Developed a comprehensive task management system using the Nest.js framework, powered by Node.js and Express on the backend. This system empowers users with the ability to efficiently manage their tasks. Users can seamlessly access, create, delete, and update tasks, providing a seamless and organized task management experience.    
                 </div>
-                <img src="./public/project-card-image.png" alt="" class="project-card-image">
-             </div>
-             <div class="project-cards">
-                <div class="project-card-heading"> Heading</div>
-                <div class="project-card-description"> Descirption lot of descripton afajsf asfnasnfknsasalnklnsdfasfdsafaafadasdadafsa </div>
                 <div class="project-card-tech-used"> 
                      <div class="project-tech-used">
                          TypeScript
                      </div>
                      <div class="project-tech-used">
-                         TypeScript
+                         NestJs
                      </div>
                      <div class="project-tech-used">
-                         TypeScript
+                         Nodejs
                      </div>
                 </div>
                 <img src="./public/project-card-image.png" alt="" class="project-card-image">
@@ -334,7 +316,7 @@
     <div class="divider-line">
         <div class="horizontal-line"></div>
     </div>
-    <div class="contact-section">
+    <div class="contact-section" id="contact-container-id" style="transition: all 3s ease;">
         <div class="contact-section-inner">
                     <div class="contacts-text-container">
                         <div class="contacts-text greeting-emo-container">
@@ -390,5 +372,7 @@
       </div>
     </div>
 </footer>
+
+<script src="./scripts/scripts.js"></script>
 </body>
 </html>
