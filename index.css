@@ -394,6 +394,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  cursor: pointer;
 }
 .lite-text {
   color: rgba(255, 255, 255, 0.5);
@@ -414,6 +415,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 5rem;
+  cursor: pointer;
 }
 /* Contact Section End */
 
